@@ -1,9 +1,12 @@
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-}
-.logo-web {
     color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo-studio {
     color: #2e2f42;
@@ -31,6 +34,7 @@ ul {
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #fff;
 }
 h1 {
     color: #fff;
