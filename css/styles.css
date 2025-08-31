@@ -14,22 +14,36 @@
 .logo-studio2 {
     color: #f4f4fd;
 }
-nav a {
+.link-nav {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #2e2f42;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link-nav:hover {
+    color: #404bbf;
+}
+.link-nav:focus {
+    color: #404bbf;
 }
 ul {
     list-style: none;
 }
-.address-link {
-    text-decoration: none;
-    color: #434455;
+.address {
     font-style: normal;
 }
+.address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .address-link:hover {
-    text-decoration: underline;
+    color: #404bbf;
+}
+.address-link:focus {
+    color: #404bbf;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -37,12 +51,16 @@ body {
     background-color: #fff;
 }
 h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #fff;
 }
 h2, h3 {
     color: #2e2f42;
 }
-.dbg {
+.section1 {
     background-color: #2e2f42;
 }
 .lbg {
@@ -57,7 +75,16 @@ h2, h3 {
     border: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
+}
+.button1:hover {
+    background-color: #404bbf;
+}
+.button1:focus {
+    background-color: #404bbf;
 }
 .footertext {
     color: #f4f4fd;
