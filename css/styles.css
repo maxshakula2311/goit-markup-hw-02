@@ -50,7 +50,7 @@ body {
     color: #434455;
     background-color: #fff;
 }
-.section1 {
+.mainsection {
     background-color: #2e2f42;
 }
 .main-heading {
@@ -60,7 +60,7 @@ body {
     letter-spacing: 0.02em;
     color: #fff;
 }
-.button1 {
+.button {
     background-color: #4d5ae5;
     color: #fff;
     border: none;
@@ -72,15 +72,23 @@ body {
     cursor: pointer;
 }
 
-.button1:hover {
+.button:hover {
     background-color: #404bbf;
 }
 
-.button1:focus {
+.button:focus {
     background-color: #404bbf;
 }
-h2, h3 {
+.secondary-heading {
     color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .lbg {
     background-color: #f4f4fd;
